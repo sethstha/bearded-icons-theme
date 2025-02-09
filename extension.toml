@@ -1,7 +1,7 @@
-id = "bearded-icons"
-name = "Bearded Icons Theme"
+id = "bearded-icon-theme"
+name = "Bearded Icon Theme"
 version = "0.1.0"
 schema_version = 1
 authors = ["Sanjeev Shrestha <sethstha@gmail.com>"]
-description = "Bearded icons theme for Zed"
+description = "Bearded icon theme for Zed"
 repository = "https://github.com/sethstha/pcode-icons"
