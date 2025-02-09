@@ -1,6 +1,6 @@
 # Bearded Icons
 Beautiful looking Icons for [Zed](https://zed.dev)
-![Preview Image](https://raw.githubusercontent.com/BeardedBear/bearded-icons/master/images/preview.png)
+![Preview Image](https://raw.githubusercontent.com/BeardedBear/bearded-icons/master/assets/pres.png)
 
 # License
 Many Icons are source from the [Bearded Icons](https://github.com/BeardedBear/bearded-icons) For VSCode. Most of the icons are distributed under the origin [LICENSE](https://github.com/BeardedBear/bearded-icons/blob/master/LICENSE)
