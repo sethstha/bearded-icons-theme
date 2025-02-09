@@ -1,31 +1,35 @@
 # Bearded Icons
-Beautiful looking Icons for [Zed](https://zed.dev)
+
+Beautiful icons for [Zed](https://zed.dev).
+
 ![Preview Image](https://raw.githubusercontent.com/BeardedBear/bearded-icons/master/assets/pres.png)
 
 # License
-Many Icons are source from the [Bearded Icons](https://github.com/BeardedBear/bearded-icons) For VSCode. Most of the icons are distributed under the origin [LICENSE](https://github.com/BeardedBear/bearded-icons/blob/master/LICENSE)
 
-Some of the missing icons are created by me and distributed under the same license.
+Many icons are sourced from [Bearded Icons](https://github.com/BeardedBear/bearded-icons) for VS Code. Most of these icons are distributed under the original [LICENSE](https://github.com/BeardedBear/bearded-icons/blob/master/LICENSE).
 
-# TODO
-- [ ] Prettierignore icons
+Some missing icons have been created by me and are distributed under the same license.
+
+## TODO
+
+- [ ] Prettier ignore icons
 - [ ] Different icons for different image types
 - [ ] Different icons for different audio types
 - [ ] Different icons for different video types
 - [ ] Different icons for different font types
 - [ ] Different icons for different document types
-- [ ] Postcss icons
+- [ ] PostCSS icons
 - [ ] Different icons for `tsx` and `jsx`
 - [ ] Webpack icons
 - [ ] Rustfmt icons
-- [ ] yarnlock icons
+- [ ] `yarn.lock` icons
 - [ ] Tauri icons
 - [ ] Svelte icons
 - [ ] Deno icons
-- [ ] Unocss icons
+- [ ] UnoCSS icons
 - [ ] Tailwind icons
 - [ ] Vite icons
-- [ ] Cargo/lock icons
-- [ ] Dockerignore icons
+- [ ] `Cargo.lock` icons
+- [ ] `.dockerignore` icons
 
-**Note:** Keep in mind that more icons won't be available until the file type association are not added to the core of Zed. I am also working on it.
+**Note:** More icons will not be available until file type associations are added to the core of Zed. I am also working on this.
