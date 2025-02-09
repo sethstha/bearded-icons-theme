@@ -5,7 +5,7 @@ Beautiful looking Icons for [Zed](https://zed.dev)
 Many Icons are source from the [Bearded Icons](https://github.com/BeardedBear/bearded-icons) For VSCode. Most of the icons are distributed under the origin [LICENSE](https://github.com/BeardedBear/bearded-icons/blob/master/LICENSE)
 Some of the missing icons are created by me and distributed under the same license.
 
-#TODO
+# TODO
 - [ ] Prettierignore icons
 - [ ] Different icons for different image types
 - [ ] Different icons for different audio types
