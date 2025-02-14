@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-0.223537,-0.223537)">
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M800,234.316L800,565.684L789.322,566.725L403.8,404.781L400,400L800,234.316" style="fill:rgb(243,106,34);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M800,565.684L565.684,800L562.106,797.247L398.641,410.969L400,400L800,565.684" style="fill:rgb(243,133,47);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M400,400L391.162,406.072L232.925,793.253L234.316,800L565.684,800L400,400" style="fill:rgb(242,195,46);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M0,565.684L9.919,557.972L391.162,398.591L400,400L234.316,800L0,565.684" style="fill:rgb(203,220,56);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M0,234.316L9.919,233.644L394.516,391.372L400,400L0,565.684L0,234.316" style="fill:rgb(181,214,109);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M234.316,0L0,234.316L400,400L400.703,389.825L251.55,9.456L234.316,0" style="fill:rgb(105,197,229);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.0131764,0,0,0.0131764,2.95297,2.95297)">
+            <path d="M234.316,0L565.684,0L400,400L234.316,0" style="fill:rgb(109,159,213);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
