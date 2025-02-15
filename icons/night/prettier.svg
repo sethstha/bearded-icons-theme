@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#D247D2" d="M6.5 13h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#FA0" d="M6.5 11h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#D247D2" d="M11 9H3.5a.5.5 0 0 0 0 1H11a.5.5 0 0 0 0-1Z"/><path fill="#F50000" d="M13 7h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#FA0" d="M13 5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#0FBEC0" d="M6.5 7h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#F50000" d="M6.5 5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"/><path fill="#0FBEC0" d="M11 3H3.5a.5.5 0 0 0 0 1H11a.5.5 0 0 0 0-1Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path
+    fill="#f7768e"
+    d="M6.5 13h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"
+  /><path fill="#ff9e64" d="M6.5 11h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z" /><path
+    fill="#f7768e"
+    d="M11 9H3.5a.5.5 0 0 0 0 1H11a.5.5 0 0 0 0-1Z"
+  /><path fill="#db4b4b" d="M13 7h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z" /><path
+    fill="#ff9e64"
+    d="M13 5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"
+  /><path fill="#0db9d7" d="M6.5 7h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z" /><path
+    fill="#db4b4b"
+    d="M6.5 5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1Z"
+  /><path fill="#0db9d7" d="M11 3H3.5a.5.5 0 0 0 0 1H11a.5.5 0 0 0 0-1Z" /></svg>
