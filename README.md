@@ -13,6 +13,9 @@ Some missing icons have been created by me and are distributed under the same li
 **Note:** More icons will not be available until file type associations are added to the core of Zed. I am also working on this.
 
 ## Changelog
+**0.4.0**
+Added script to generate icons for all file types. Now generates 1088 icons.
+
 **0.3.0**
 Added icons for `bicep` `csharp` `gitlab` `luau` `markdown` `sol` `stylelint` `svelte`
 
