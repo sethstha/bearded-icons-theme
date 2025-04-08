@@ -1,6 +1,6 @@
 use std::fs;
-use std::path::Path;
 use std::io::Write;
+use std::path::Path;
 
 use super::file_handlers::{load_file_stems, load_file_suffixes};
 
@@ -10,7 +10,7 @@ pub fn generate_test_files() -> Result<(), Box<dyn std::error::Error>> {
     let file_suffixes = load_file_suffixes()?;
 
     // Create test directory if it doesn't exist
-    let test_dir = Path::new("tests/files");
+    let test_dir = Path::new("tests");
     fs::create_dir_all(test_dir)?;
 
     // Generate files from stems
