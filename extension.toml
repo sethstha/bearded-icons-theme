@@ -3,5 +3,5 @@ name = "Bearded Icon Theme"
 version = "0.4.0"
 schema_version = 1
 authors = ["Sanjeev Shrestha <sethstha@gmail.com>"]
-description = "Bearded icon theme for Zed with over 1000+ icons"
+description = "Bearded icon theme for Zed"
 repository = "https://github.com/sethstha/bearded-icons-theme"
