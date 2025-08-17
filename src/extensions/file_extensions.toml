@@ -52,6 +52,7 @@
 "stories.jsx" = "storybook"
 "stories.ts" = "storybook"
 "stories.tsx" = "storybook"
+"stories.svelte" = "storybook"
 "story.js" = "storybook"
 "story.jsx" = "storybook"
 "story.ts" = "storybook"
