@@ -1,12 +1,13 @@
+use indexmap::IndexMap;
 use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
 use toml;
 
-pub fn load_file_stems() -> Result<HashMap<String, String>, Box<dyn std::error::Error>> {
+pub fn load_file_stems() -> Result<IndexMap<String, String>, Box<dyn std::error::Error>> {
     let mut file_stems = HashMap::new();
     let names_dir = Path::new("src/names");
-    
+
     // Process bundler.toml
     let bundler_path = names_dir.join("bundler.toml");
     let content = fs::read_to_string(bundler_path)?;
@@ -39,10 +40,14 @@ pub fn load_file_stems() -> Result<HashMap<String, String>, Box<dyn std::error::
         }
     }
 
-    Ok(file_stems)
+    // Re-order output hashmap using a stable sort over the keys
+    let mut entries: Vec<(String, String)> = file_stems.into_iter().collect();
+    entries.sort_by(|a, b| a.0.cmp(&b.0));
+
+    Ok(entries.into_iter().collect())
 }
 
-pub fn load_file_suffixes() -> Result<HashMap<String, String>, Box<dyn std::error::Error>> {
+pub fn load_file_suffixes() -> Result<IndexMap<String, String>, Box<dyn std::error::Error>> {
     let mut file_suffixes = HashMap::new();
     let extensions_dir = Path::new("src/extensions");
 
@@ -78,5 +83,9 @@ pub fn load_file_suffixes() -> Result<HashMap<String, String>, Box<dyn std::erro
         }
     }
 
-    Ok(file_suffixes)
+    // Re-order output hashmap using a stable sort over the keys
+    let mut entries: Vec<(String, String)> = file_suffixes.into_iter().collect();
+    entries.sort_by(|a, b| a.0.cmp(&b.0));
+
+    Ok(entries.into_iter().collect())
 }

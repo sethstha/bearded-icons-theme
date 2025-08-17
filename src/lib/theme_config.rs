@@ -1,7 +1,9 @@
+use indexmap::IndexMap;
 use std::fs;
 use std::path::Path;
-use super::models::{IconTheme, Theme, DirectoryIcons, FileIcon};
+
 use super::file_handlers::{load_file_stems, load_file_suffixes};
+use super::models::{DirectoryIcons, FileIcon, IconTheme, Theme};
 use std::collections::HashMap;
 
 pub fn generate_theme_config() -> Result<(), Box<dyn std::error::Error>> {
@@ -18,7 +20,7 @@ pub fn generate_theme_config() -> Result<(), Box<dyn std::error::Error>> {
             },
             file_stems: load_file_stems().unwrap_or_default(),
             file_suffixes: load_file_suffixes().unwrap_or_default(),
-            file_icons: HashMap::new(),
+            file_icons: IndexMap::new(),
         }],
     };
 
@@ -28,12 +30,13 @@ pub fn generate_theme_config() -> Result<(), Box<dyn std::error::Error>> {
     for entry in fs::read_dir(icons_dir)? {
         let entry = entry?;
         let path = entry.path();
-        
+
         if path.extension().and_then(|s| s.to_str()) == Some("svg") {
-            let file_name = path.file_stem()
+            let file_name = path
+                .file_stem()
                 .and_then(|s| s.to_str())
                 .ok_or("Invalid file name")?;
-                
+
             file_icons.insert(
                 file_name.to_string(),
                 FileIcon {
@@ -43,15 +46,16 @@ pub fn generate_theme_config() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
+    // Re-order output hashmap using a stable sort over the keys
+    let mut file_icon_entries: Vec<(String, FileIcon)> = file_icons.into_iter().collect();
+    file_icon_entries.sort_by(|a, b| a.0.cmp(&b.0));
+
     if let Some(first_theme) = theme.themes.get_mut(0) {
-        first_theme.file_icons = file_icons;
+        first_theme.file_icons = file_icon_entries.into_iter().collect();
     }
 
     let output_file = Path::new("icon_themes/bearded-icon-theme.json");
-    fs::write(
-        output_file,
-        serde_json::to_string_pretty(&theme)?
-    )?;
+    fs::write(output_file, serde_json::to_string_pretty(&theme)?)?;
 
     println!("Theme configuration has been generated successfully!");
     Ok(())

@@ -1,5 +1,5 @@
+use indexmap::IndexMap;
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
 
 #[derive(Serialize, Deserialize)]
 pub struct IconTheme {
@@ -15,9 +15,9 @@ pub struct Theme {
     pub name: String,
     pub appearance: String,
     pub directory_icons: DirectoryIcons,
-    pub file_stems: HashMap<String, String>,
-    pub file_suffixes: HashMap<String, String>,
-    pub file_icons: HashMap<String, FileIcon>,
+    pub file_stems: IndexMap<String, String>,
+    pub file_suffixes: IndexMap<String, String>,
+    pub file_icons: IndexMap<String, FileIcon>,
 }
 
 #[derive(Serialize, Deserialize)]
