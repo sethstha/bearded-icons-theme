@@ -1,3 +1,5 @@
+# Deprecated
+Use the official version from here https://github.com/BeardedBear/bearded-icons 
 # Bearded Icons
 
 Beautiful icons for [Zed](https://zed.dev).
